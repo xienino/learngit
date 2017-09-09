@@ -177,13 +177,13 @@ git check-ignore -v <file>  #查看忽略该文件的规则
 - 配置别名列表
 
 ```
-git config --global alias.confg 'config --global'
+git config --global alias.confg 'config --global'       #用’config‘代替‘config --global’
 git confg alias.st status
 git confg alias.co checkout
 git confg alias.ci commit
 git confg alias.br branch
-git confg alias.unstage 'reset HEAD'
-git confg alias.last 'log -1'
-git confg alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+git confg alias.unstage 'reset HEAD'  #非常方便
+git confg alias.last 'log -1'         
+git confg alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"   #非常方便
 ```
 - 搭建Git服务器 [教程地址](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)
