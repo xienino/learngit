@@ -186,4 +186,6 @@ git confg alias.unstage 'reset HEAD'  #非常方便
 git confg alias.last 'log -1'         
 git confg alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"   #非常方便
 ```
+> 配置文件放在.git/config文件中
+
 - 搭建Git服务器 [教程地址](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)
